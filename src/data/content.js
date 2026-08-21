@@ -31,11 +31,11 @@ export const siteData = {
   ],
 
   categories: [
-    { id: "wedding", name: "Wedding Cakes", image: "https://images.unsplash.com/photo-1535254973040-607b474cb50d?auto=format&fit=crop&q=80&w=800" },
-    { id: "engagement", name: "Engagement Cakes", image: "/engagement_cake.png" },
-    { id: "vintage", name: "Vintage Cakes", image: "/vintage_cake.png" },
-    { id: "theme", name: "Theme Cakes", image: "/theme_cake.png" },
-    { id: "wafer", name: "Wafer Paper Cakes", image: "/wafer_cake.png" },
+    { id: "wedding", name: "Wedding Cakes", image: "/pink-floral-cake.jpg" },
+    { id: "engagement", name: "Engagement Cakes", image: "/always-forever-cake.jpg" },
+    { id: "vintage", name: "Vintage Cakes", image: "/maroon-bow-cake.jpg" },
+    { id: "theme", name: "Theme Cakes", image: "/polo-bear-cake.jpg" },
+    { id: "wafer", name: "Wafer Paper Cakes", image: "/white-pearl-ruffle-cake.jpg" },
   ],
 
   products: [
@@ -45,7 +45,7 @@ export const siteData = {
       name: "Luxury Floral Wedding Cake",
       description: "A beautiful multi-tiered cake with handcrafted sugar flowers and delicate piping.",
       price: "Price on request",
-      image: "https://images.unsplash.com/photo-1535254973040-607b474cb50d?auto=format&fit=crop&q=80&w=800",
+      image: "/pink-floral-cake.jpg",
       isEggless: true
     },
     {
@@ -54,7 +54,7 @@ export const siteData = {
       name: "Classic White Tiered Cake",
       description: "Traditional white wedding cake with smooth buttercream and subtle gold leaf accents.",
       price: "Price on request",
-      image: "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&q=80&w=800",
+      image: "/anniversary-cake.jpg",
       isEggless: true
     },
     {
@@ -63,25 +63,25 @@ export const siteData = {
       name: "Rustic Buttercream Cake",
       description: "A beautiful rustic wedding cake with fresh berries and floral accents.",
       price: "Price on request",
-      image: "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&q=80&w=800",
+      image: "/maroon-bow-cake.jpg",
       isEggless: false
     },
     {
       id: 2,
       categoryId: "engagement",
-      name: "Classic Engagement Ring Cake",
-      description: "Elegant semi-fondant cake with a gold acrylic topper and fresh orchids.",
+      name: "Always & Forever Floral Cake",
+      description: "Beautiful semi-naked cake with pink buttercream accents, fresh roses, and a custom gold topper.",
       price: "Price on request",
-      image: "/engagement_cake.png",
+      image: "/always-forever-cake.jpg",
       isEggless: true
     },
     {
       id: 21,
       categoryId: "engagement",
-      name: "Elegant Pink Ribbon Cake",
-      description: "Soft pink frosting with a beautiful edible ribbon and delicate pearls.",
+      name: "Mermaid Theme Birthday Cake",
+      description: "Two-tiered under the sea design with chocolate mermaid tails, shells, and beautiful ombre frosting.",
       price: "Price on request",
-      image: "https://images.unsplash.com/photo-1514517220017-8ce97a34a7b6?auto=format&fit=crop&q=80&w=800",
+      image: "/mermaid-cake.jpg",
       isEggless: true
     },
     {
@@ -105,19 +105,19 @@ export const siteData = {
     {
       id: 4,
       categoryId: "theme",
-      name: "Kids Safari Theme Cake",
-      description: "Fun and colorful custom cake featuring edible fondant animals.",
+      name: "Bear & Hot Air Balloon Cake",
+      description: "Adorable two-tier baby blue cake with fondant bears, clouds, and a 3D hot air balloon topper.",
       price: "Price on request",
-      image: "/theme_cake.png",
+      image: "/bear-balloon-cake.jpg",
       isEggless: true
     },
     {
       id: 41,
       categoryId: "theme",
-      name: "Party Celebration Cake",
-      description: "Bright and festive cake covered in sprinkles and fun birthday toppers.",
+      name: "Polo Bear Birthday Cake",
+      description: "Sophisticated two-tier cake featuring a fondant bear and custom Polo Ralph Lauren inspired logo.",
       price: "Price on request",
-      image: "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&q=80&w=800",
+      image: "/polo-bear-cake.jpg",
       isEggless: true
     },
     {
@@ -132,10 +132,91 @@ export const siteData = {
     {
       id: 51,
       categoryId: "wafer",
-      name: "Textured Wafer Creation",
-      description: "Stunning textured buttercream base adorned with delicate wafer paper fans.",
+      name: "White Pearl & Ruffles Cake",
+      description: "Elegant white tiered cake featuring dramatic sugar ruffles and pearl accents.",
       price: "Price on request",
-      image: "https://images.unsplash.com/photo-1627834377411-8da5f4f09de8?auto=format&fit=crop&q=80&w=800",
+      image: "/white-pearl-ruffle-cake.jpg",
+      isEggless: true
+    },
+    {
+      id: 101,
+      categoryId: "wedding",
+      name: "Golden Anniversary Tier",
+      description: "Beautiful multi-tiered cake with handcrafted sugar flowers.",
+      price: "Price on request",
+      image: "/anniversary-cake.jpg",
+      isEggless: true
+    },
+    {
+      id: 102,
+      categoryId: "theme",
+      name: "Bear & Balloon Birthday",
+      description: "Adorable two-tier cake with fondant bears and clouds.",
+      price: "Price on request",
+      image: "/bear-balloon-cake.jpg",
+      isEggless: true
+    },
+    {
+      id: 103,
+      categoryId: "engagement",
+      name: "Mermaid Fantasy Cake",
+      description: "Two-tiered under the sea design with beautiful ombre frosting.",
+      price: "Price on request",
+      image: "/mermaid-cake.jpg",
+      isEggless: true
+    },
+    {
+      id: 104,
+      categoryId: "vintage",
+      name: "Classic White Wedding",
+      description: "Traditional white wedding cake with smooth buttercream.",
+      price: "Price on request",
+      image: "/pink-floral-cake.jpg",
+      isEggless: true
+    },
+    {
+      id: 105,
+      categoryId: "wafer",
+      name: "Rose Engagement Cake",
+      description: "Beautiful semi-naked cake with pink buttercream accents.",
+      price: "Price on request",
+      image: "/always-forever-cake.jpg",
+      isEggless: true
+    },
+    {
+      id: 106,
+      categoryId: "theme",
+      name: "Playful Pastel Party Cake",
+      description: "Fun and vibrant design with assorted candies and bright sprinkles.",
+      price: "Price on request",
+      image: "/theme_cake.png",
+      isEggless: true
+    },
+    {
+      id: 107,
+      categoryId: "wafer",
+      name: "Contemporary Wafer Design",
+      description: "Artistic modern cake adorned with delicate structural wafer paper details.",
+      price: "Price on request",
+      image: "/wafer_cake.png",
+      isEggless: false
+    },
+    {
+      id: 108,
+      categoryId: "vintage",
+      name: "Opulent White Vintage",
+      description: "A breathtaking multi-tiered white cake with intricate detailing.",
+      price: "Price on request",
+      image: "/anniversary-cake.jpg",
+      isEggless: true
+    },
+    {
+      id: 109,
+      categoryId: "engagement",
+      name: "Rustic Love Engagement",
+      description: "Stunning maroon finish with elegant white bows and pearl accents.",
+      price: "Price on request",
+      image: "/maroon-bow-cake.jpg",
       isEggless: true
     }
   ]

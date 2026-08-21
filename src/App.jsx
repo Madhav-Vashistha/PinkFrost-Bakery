@@ -13,10 +13,10 @@ function App() {
       
       <main>
         <Hero />
-        <CategoryNav />
-        <ProductGrid />
         <AboutSection />
         <AwardsSection />
+        <CategoryNav />
+        <ProductGrid />
       </main>
 
       <Footer />

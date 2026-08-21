@@ -9,10 +9,10 @@ export default function CategoryNav() {
           <div className="w-16 h-1 bg-brand-gold mx-auto"></div>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-8">
+        <div className="flex overflow-x-auto hide-scrollbar gap-6 md:gap-8 pb-4 snap-x snap-mandatory">
           {siteData.categories.map((cat) => (
-            <a key={cat.id} href={`#${cat.id}`} className="group block text-center">
-              <div className="relative rounded-full overflow-hidden aspect-square mb-4 border-2 border-transparent group-hover:border-brand-gold transition-colors duration-300">
+            <a key={cat.id} href={`#${cat.id}`} className="group block text-center w-[140px] md:w-[180px] snap-center flex-shrink-0">
+              <div className="relative rounded-full overflow-hidden aspect-square mb-4 border-2 border-transparent group-hover:border-brand-gold transition-colors duration-300 shadow-sm">
                 <img 
                   src={cat.image} 
                   alt={cat.name} 
